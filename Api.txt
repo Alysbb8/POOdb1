@@ -1,0 +1,12 @@
+API  =  Application Programming Interface
+API é responsável por estabelecer comunicação entre diferentes serviços
+REST = determina obrigações na transferência de dados
+REST  =  representational stage transfer
+constraints para REST(são seis)
+* Client server(cliente e servidor devem estar separados)
+* Stateless (cada requisição que fizer ao servidor, 
+este deverá conter todas as infos necessárias para responder. o servidor não pode lembrar que o cliente foi autenticado);
+* Cacheable (as respostas para uma requisição deversão ser explicitas se esta pode ou não ser cacheada)
+* Layered System (cliente acessa o endpoint sem precisar saber das camadas que o servidor lida para requisição ser respondida);
+* Uniform Interface 
+* Code on demand _opcional_ 
